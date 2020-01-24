@@ -6,7 +6,13 @@ def load_library(file_path)
   # code goes here
   emoticons = YAML.load_file(file_path)
 
-  emoticons.each do {|get_meaning, get_emoticon| }
+  hash = {
+  'get_meaning':{},
+  'get_emoticon':{}}
+
+  emoticons.do {|key,value|
+  
+
 end
 
 def get_japanese_emoticon
